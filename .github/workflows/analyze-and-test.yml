@@ -28,7 +28,7 @@ jobs:
           cache: true
 
       - name: Install dependencies
-        working-directory: ./asistenciacontrol
+        working-directory: ./SOSMASCOTA
         run: flutter pub get
 
       - name: Analyze code
